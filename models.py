@@ -18,3 +18,7 @@ class Students(db.Model):
 
 # Run below command to generate tables
 # db.create_all()
+
+# If any modifications are done in DB table run these cmnds:
+# flask db migrate -m "Added something"
+# flask db upgrade
